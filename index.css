@@ -85,6 +85,7 @@
 #about{
   text-align: center;
   background: #B4AB81;
+  padding-top: 10%;
   /*background: url("./pic.jpg");
   height: 800px;
   background-size: cover;*/
@@ -96,14 +97,16 @@
   background: url("./profilepic.jpg");
   height: 600px;
   background-size: cover;
-  padding-top: 10%;
   text-align: center;
   vertical-align: center;
   line-height: 600px;
   color: white;
   font-family: 'Abril Fatface', cursive;
-  font-size: 50px;
+  font-size: 30px;
   text-shadow: 2px 2px 10px black;
+  box-shadow: 5px 5px 20px black;
+  border-radius: 25px;
+
 }
 
 
@@ -133,6 +136,9 @@
   display: flex;
   flex-wrap: wrap;
   background: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .element {
@@ -159,9 +165,11 @@
 }
 
 .bottom-bar {
+  text-shadow: 2px 2px 10px white;
   height: 400px;
   text-align: center;
   background: #B4AB81;
+  
 }
 
 .bottom-bar h1{
