@@ -10,6 +10,7 @@
   background: url("./office2.jpg");
   background-size: cover;
   background-attachment: fixed;
+  padding-bottom: 50px;
 }
 
 .topnav {
@@ -67,6 +68,8 @@
   background-attachment: fixed;
   padding: 250px;
   text-align: center;
+  text-shadow: 2px 2px 10px black;
+
 }
 
 #heading h1 {
@@ -81,23 +84,52 @@
 
 #about{
   text-align: center;
-  background: url("./pic.jpg");
+  background: #B4AB81;
+  /*background: url("./pic.jpg");
   height: 800px;
+  background-size: cover;*/
+}
+
+#mainpic {
+  margin-right: 10%;
+  margin-left: 10%;
+  background: url("./profilepic.jpg");
+  height: 600px;
   background-size: cover;
+  padding-top: 10%;
+  text-align: center;
+  vertical-align: center;
+  line-height: 600px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  text-shadow: 2px 2px 10px black;
+}
+
+
+#aboutme {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  padding-top: 5%;
 }
 
 .descp {
-  color: white;
-  padding: 10%;
-  margin-left: 40%;
-  padding-top: 20%;
+  color: black;
+  /*margin-left: 40%;
+  padding-top: 20%;*/
   font-family: 'Mali', cursive;
   text-decoration: none;
   font-size: 17px;
   transition: all 0.1s;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  text-shadow: 2px 2px 10px white;
 }
 
 .flex-container {
+
   display: flex;
   flex-wrap: wrap;
   background: black;
@@ -129,6 +161,7 @@
 .bottom-bar {
   height: 400px;
   text-align: center;
+  background: #B4AB81;
 }
 
 .bottom-bar h1{
